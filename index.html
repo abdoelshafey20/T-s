@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div >
+    <h2 id="number"> 0 </h2>
+
+    <button class="mb-2 " onclick="add()">Increment </button>
+
+    <button onclick="decrement()">decrement </button>
+          
+</div>
+    <!--start section  -->
+    <div class="container mt-2 pt-5">
+        <div class="row">
+            <div class="col-md-10 m-auto"> 
+            <h2 class="text-center">Convert from dollar to L.E</h2>
+             <form onsubmit=" return mouse()">
+                <input class="form-control my-3" id="cash" type="text" placeholder="Enter amount of dollar">
+
+                <input value="confirm" type="submit" class="btn btn-success btn-block"></input>
+
+            </form>
+            <h3 id="result"></h3>
+
+
+            </div>
+            
+        
+        </div>
+    </div>
+            <!--end section  -->
+
+
+  <script src="js/main.js"></script>  
+</body>
+</html>
